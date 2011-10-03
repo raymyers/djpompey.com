@@ -1,0 +1,33 @@
+!!! 5
+%html
+  %head
+    %title DJ Pompey
+    %link( type="text/css" rel="stylesheet" href="/css/reset.css" )
+    %link( type="text/css" rel="stylesheet" href="/css/960.css" )
+    %link( type="text/css" rel="stylesheet/less" href="/css/style.less" )
+    %script( type="text/javascript" src="/js/less-1.0.41.min.js" )
+    %script( type="text/javascript" src="/js/jquery-1.5.min.js" )
+    %script( type="text/javascript" src="/js/logic.js" )
+    %link( rel="icon" href="/images/fav.ico" )
+
+  %body
+    %div#nav
+      %div.container_12
+        %div#header
+          %div.grid_5.pull_1
+            %h1
+              %a(href="/") DJ Pompey
+          %div.grid_7.pull_1
+            %ul( id="headernav" )
+              %li#nav-home
+                %a( href="/home" ) Home
+              %li#nav-bio
+                %a( href="/bio" ) Bio
+              %li#nav-music
+                %a( href="/music" ) Music
+              %li#nav-video
+                %a( href="/video" ) Video
+              %li#nav-contact
+                %a( href="/contact" ) Contact    
+	    %div.container_12
+	      = body
